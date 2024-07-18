@@ -1,0 +1,121 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.bookshelf-header{
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.bookshelf-container {
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+  background-color: #f5f7fa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.allBooks-container {
+  height: 93%;
+  width: 90%;
+}
+.option-butn {
+  border-width: 0px;
+  background-color: transparent;
+}
+.no-match-paragraph {
+  margin-top: 15px;
+}
+.active-filter-lg {
+  color: #0284c7;
+}
+.top-rated-books-failure-btn {
+  background-color: #0284c7;
+  padding: 10px;
+  width: 90px;
+  border-width: 0px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.no-match-found-container,
+.top-rated-books-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.list-option {
+  margin-bottom: 10px;
+}
+.un-order-list-options {
+  padding-left: 10px;
+}
+.unorder-list-books {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 35px;
+  padding: 16px;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+.header-find-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-input-container {
+  border: solid black 1px;
+  border-radius: 5px;
+  border-color: #94a3b8;
+}
+.search-icon {
+  width: 20px;
+  height: 15px;
+  top: 138px;
+  left: 1237px;
+  gap: 0px;
+  border-radius: 0px 3px 3px 0px;
+  opacity: 0px;
+}
+.search-btn {
+  height: 36px;
+  border-width: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.allBook-header {
+  font-size: 20px;
+}
+.search-input {
+  width: 264px;
+  height: 36px;
+  top: 137px;
+  left: 1026px;
+  gap: 0px;
+  opacity: 0px;
+  padding-left: 8px;
+}
+.bookshelf-options {
+  width: 256px;
+  height: 80%;
+  top: 137px;
+  left: 150px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  padding-top: 18px;
+}
+.all-books-container {
+  height: 80%;
+  width: 80%;
+  padding-left: 25px;
+}

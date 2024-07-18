@@ -1,0 +1,94 @@
+.home-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f5f7fa;
+  width: 100vw;
+  height: 100%;
+  top: 9322px;
+  left: 6356px;
+  gap: 0px;
+  opacity: 0px;
+  padding-bottom: 15px;
+}
+.failure-details {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 25px;
+}
+
+.book-butn {
+  background-color: transparent;
+  border-width: 0px;
+  height: 250px;
+  padding-left: 5px;
+}
+.find-butn {
+  color: #ffffff;
+  background-color: #0080ff;
+  width: Hug (104px) px;
+  height: Hug (36px) px;
+  top: 343px;
+  left: 1165px;
+  gap: 0px;
+  opacity: 0px;
+  border-width: 0px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.auth-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: -30px;
+  padding: 3px;
+}
+.book-header {
+  font-size: 14px;
+}
+.book-prg {
+  font-size: 8px;
+}
+
+.book-cart {
+  width: 1150px;
+  height: 450px;
+  top: 309px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #d8e4f7;
+  border-radius: 7px;
+  padding: 23px;
+  text-align: center;
+}
+
+.book-img {
+  width: 220px;
+  height: 180px;
+  top: 409px;
+  left: 919px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.book-cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 27px;
+}
+.home-container {
+  padding: 28px;
+  width: 100%;
+  height: 100vh;
+}
